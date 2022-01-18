@@ -2,7 +2,7 @@
 
 
 <h1>Nikita Kaplan</h1>
-<p>Email (as appearing in moodle): nikitaka@edu.hac.ac.il</p>
+
 
 <h1>Execution</h1>
 <p>
