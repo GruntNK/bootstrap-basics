@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Exercise 1 - Resume using bootstrap/HTML</title>
+</head>
+<body>
+
+
+<div class="container-fluid p-5 bg-dark text-white text-center">
+    <h1>Nikita Kaplan</h1>
+    <div class="d-sm-none d-lg-block">Resume</div>
+</div>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Who is submitting
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/nikita-kaplan-1275a2208/">LinkedIn</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/GruntNK">GitHub</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class ="container-fluid">
+    <div class="row">
+        <div class="col-md-4 col-sm-12">
+            <img src="images/IMG_7171.jpg" class="img-thumbnail" alt="...">
+            <h2>1. About Me</h2>
+            <ul>
+                <li>Nikita Kaplan</li>
+                <li>Born: January 1, 1989</li>
+            </ul>
+            <p> A computer science student seeking employment. Fast learner, highly <br>
+                motivated , experienced in working under pressure in limited<br>
+                timeframe. Ready to utilize my skills and passion to further the mission<br>
+                of a company.</p>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <h2>2. Skills</h2>
+            <table class ="table">
+                <tr>
+                    <th>Domain</th>
+                    <th>Technology</th>
+                </tr>
+                <tr>
+                    <td>Front End Web Development</td>
+                    <td>HTML, CSS, JavaScript, React, Angular JS</td>
+                </tr>
+                <tr>
+                    <td>Back End Web Development</td>
+                    <td>NodeJS, J2EE</td>
+                </tr>
+                <tr>
+                    <td>Web Development Stacks</td>
+                    <td>LAMP</td>
+                </tr>
+                <tr>
+                    <td>Databases</td>
+                    <td>MySQL, Oracle, MongoDB</td>
+                </tr>
+                <tr>
+                    <td>Content Managed Systems</td>
+                    <td>Wordpress, Drupal</td>
+                </tr>
+                <tr>
+                    <td>Operating Systems</td>
+                    <td>Linux, Windows</td>
+                </tr>
+            </table>
+            <h2>3. Education</h2>
+            <p>Bachelor of Science in Computer science</p>
+            <p><a href="https://www.hac.ac.il/">Hadassah Academic College</a>, 2022</p>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <h2>4. Work Experience</h2>
+
+            <h6>Academic projects | 2017 - present</h6>
+            <p>
+                Designing programs in multiple languages , including C++, Python and<br>
+                Java. Writing code as a team, using design patterns and OOP.<br>
+                Experienced working under Linux and Windows OS. Moderate<br>
+                knowledge of the following working environments: Eclipse CPP Neon,<br>
+                Visual studio 2017, WebStorm 2020, PyCharm 2020 and NASM.
+            </p>
+
+            <h6>Western Wall Plaza | 2012 - present</h6>
+            <p>
+                Working in dynamic and stressful environment. Solving problems<br>
+                under pressure, using analytical thinking and interpersonal skills.
+            </p>
+
+            <h2>5. Languages</h2>
+            <ol>
+                <li>Russian (native)</li>
+                <li>Hebrew (native)</li>
+                <li>English (fluent)</li>
+            </ol>
+            <h2>6. Hobbies</h2>
+            <p>Cycling, fasting, video games</p>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Who is submitting</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Nikita Kaplan
+                nikitaka@edu.hac.ac.il
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
+
